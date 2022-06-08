@@ -33,7 +33,7 @@ public class DemoServiceImpl implements DemoService{
     DubboDemoService dubboDemoService;
     public String check(){
         if(dubboDemoService==null)
-        return "service is null ";
+        return "service is null !!!!!!!! ";
         else{
             dubboDemoService.name();
             return "service is success";
