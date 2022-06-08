@@ -1,0 +1,13 @@
+
+### 配置文件
+quarkus:
+  http:
+    enable-compression: true
+  thread-pool:
+    max-threads: 200 # 最大线程数量
+#    core-threads: 4  # 默认1个cpu -- 可以根据环境做调整
+    growth-resistance: 0.0f
+
+
+
+
